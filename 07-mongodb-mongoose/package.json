@@ -1,0 +1,22 @@
+{
+  "name": "07-mongodb-mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "_comentario": "Con nodemon podemos detectar cada cambio en el proyecto y automaticamente refresca",
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "_comentario": "Con la definicion del type:module definimos la importacion y manejo por modulos",
+  "type": "module",
+  "dependencies": {
+    "express": "4.19.2",
+    "mongoose": "8.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.0"
+  }
+}
